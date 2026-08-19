@@ -1,0 +1,7 @@
+<!-- Design reminder: Control Room / Industrial Bauhaus — graphite base and Signal Orange structural mark. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Mohamed Amin Sleem control-room data mark">
+  <rect width="64" height="64" rx="10" fill="#14211D"/>
+  <path d="M14 21h25v6H14zM14 37h25v6H14zM38 16h7v32h-7z" fill="#FF6B35"/>
+  <circle cx="47.5" cy="32" r="7.5" fill="none" stroke="#F1EFE7" stroke-width="4"/>
+  <path d="M18 24h24M18 40h24" stroke="#F1EFE7" stroke-width="1.6" opacity=".62"/>
+</svg>
