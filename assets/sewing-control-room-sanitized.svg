@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Sanitized sewing performance control room</title><desc id="desc">A visual architecture card based on a Power BI sewing overview, with all business metrics withheld.</desc>
+  <rect width="1200" height="760" fill="#14211D"/>
+  <rect x="48" y="48" width="1104" height="664" fill="#F1EFE7"/>
+  <rect x="48" y="48" width="1104" height="106" fill="#14211D"/>
+  <text x="84" y="94" fill="#FF6B35" font-family="monospace" font-size="17" letter-spacing="4">CONTROL ROOM / SEWING OVERVIEW</text>
+  <text x="84" y="126" fill="#F1EFE7" font-family="monospace" font-size="13" letter-spacing="1">SANITIZED STRUCTURE · METRICS AND IDENTITIES WITHHELD</text>
+  <g fill="#E7E4D9" stroke="#14211D" stroke-opacity=".22"><rect x="82" y="184" width="314" height="56"/><rect x="424" y="184" width="314" height="56"/><rect x="766" y="184" width="314" height="56"/></g>
+  <g font-family="monospace" font-size="13" fill="#14211D"><text x="102" y="218">FILTER / DATE</text><text x="444" y="218">FILTER / LINE</text><text x="786" y="218">FILTER / SECTION</text></g>
+  <g fill="#14211D"><rect x="82" y="280" width="235" height="132"/><rect x="341" y="280" width="235" height="132"/><rect x="600" y="280" width="235" height="132"/><rect x="859" y="280" width="221" height="132"/></g>
+  <g fill="#FF6B35" font-family="monospace" font-size="12" letter-spacing="1"><text x="103" y="312">FACTORY ACTUAL</text><text x="362" y="312">FACTORY TARGET</text><text x="621" y="312">ACHIEVEMENT %</text><text x="880" y="312">EFFICIENCY %</text></g>
+  <g fill="#F1EFE7" font-family="Arial" font-size="34" font-weight="700"><text x="103" y="367">WITHHELD</text><text x="362" y="367">WITHHELD</text><text x="621" y="367">WITHHELD</text><text x="880" y="367">WITHHELD</text></g>
+  <g fill="#173027"><rect x="82" y="456" width="642" height="190"/><rect x="748" y="456" width="332" height="190"/></g>
+  <text x="108" y="490" fill="#FF6B35" font-family="monospace" font-size="13" letter-spacing="2">LINE TARGET × LINE ACTUAL</text>
+  <g stroke="#F1EFE7" stroke-opacity=".32" stroke-width="2"><path d="M112 602H686"/><path d="M138 518V602M260 534V602M382 492V602M504 552V602M626 510V602"/></g>
+  <g stroke="#FF6B35" stroke-width="11"><path d="M154 567H242M276 548H364M398 526H486M520 563H608"/></g>
+  <text x="774" y="490" fill="#FF6B35" font-family="monospace" font-size="13" letter-spacing="2">OPERATING VIEW</text>
+  <g fill="#F1EFE7" fill-opacity=".76" font-family="Arial" font-size="21"><text x="774" y="535">From raw daily inputs</text><text x="774" y="567">to management-ready</text><text x="774" y="599">visibility.</text></g>
+  <text x="82" y="684" fill="#14211D" fill-opacity=".64" font-family="monospace" font-size="12" letter-spacing="1">BASED ON VERIFIED PRIVATE POWER BI LAYOUT · NO COMPANY DATA DISPLAYED</text>
+</svg>

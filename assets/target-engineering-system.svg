@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Sanitized target engineering system diagram</title><desc id="desc">A production target calculation workflow with no operating data displayed.</desc>
+  <rect width="1200" height="760" fill="#14211D"/>
+  <g opacity=".2" stroke="#F1EFE7" stroke-width="1"><path d="M0 95H1200M0 190H1200M0 285H1200M0 380H1200M0 475H1200M0 570H1200M0 665H1200"/><path d="M100 0V760M200 0V760M300 0V760M400 0V760M500 0V760M600 0V760M700 0V760M800 0V760M900 0V760M1000 0V760M1100 0V760"/></g>
+  <rect x="56" y="52" width="1088" height="656" fill="#173027" stroke="#F1EFE7" stroke-opacity=".28"/>
+  <text x="92" y="104" fill="#FF6B35" font-family="monospace" font-size="18" letter-spacing="4">SYSTEM FILE / TARGET ENGINEERING</text>
+  <text x="92" y="151" fill="#F1EFE7" font-family="Arial, sans-serif" font-size="40" font-weight="700">Stopwatch-to-target operating logic</text>
+  <text x="92" y="183" fill="#F1EFE7" fill-opacity=".62" font-family="monospace" font-size="15" letter-spacing="1">SANITIZED VIEW · NO STYLE, LINE, OR PRODUCTION VALUES DISPLAYED</text>
+  <g fill="#14211D" stroke="#F1EFE7" stroke-opacity=".36" stroke-width="2">
+    <rect x="92" y="264" width="190" height="138"/><rect x="344" y="264" width="190" height="138"/><rect x="596" y="264" width="190" height="138"/><rect x="848" y="264" width="190" height="138"/>
+  </g>
+  <g stroke="#FF6B35" stroke-width="5" fill="none"><path d="M282 333H330"/><path d="M534 333H582"/><path d="M786 333H834"/></g>
+  <g fill="#FF6B35"><path d="M330 326l16 7-16 7z"/><path d="M582 326l16 7-16 7z"/><path d="M834 326l16 7-16 7z"/></g>
+  <g font-family="monospace" font-size="13" letter-spacing="2" fill="#FF6B35"><text x="112" y="294">01 / CAPTURE</text><text x="364" y="294">02 / NORMALIZE</text><text x="616" y="294">03 / ALLOWANCE</text><text x="868" y="294">04 / ROLL UP</text></g>
+  <g fill="#F1EFE7" font-family="Arial, sans-serif" font-size="23" font-weight="700"><text x="112" y="338">Operation time</text><text x="364" y="338">Minutes / unit</text><text x="616" y="338">Expected loss</text><text x="868" y="338">Dept. target</text></g>
+  <g fill="#F1EFE7" fill-opacity=".56" font-family="monospace" font-size="13"><text x="112" y="372">STOPWATCH INPUT</text><text x="364" y="372">CALCULATION RULE</text><text x="616" y="372">BREAKS + CHANGEOVER</text><text x="868" y="372">HOUR / DAY VIEW</text></g>
+  <rect x="92" y="474" width="946" height="154" fill="#14211D" stroke="#FF6B35" stroke-opacity=".7"/>
+  <text x="122" y="520" fill="#FF6B35" font-family="monospace" font-size="14" letter-spacing="2">DECISION OUTPUT</text>
+  <text x="122" y="568" fill="#F1EFE7" font-family="Arial, sans-serif" font-size="31" font-weight="700">Traceable target logic by operation, department, and line</text>
+  <text x="122" y="600" fill="#F1EFE7" fill-opacity=".58" font-family="monospace" font-size="14">WORKFLOW VERIFIED FROM PRIVATE MODEL STRUCTURE · BUSINESS VALUES WITHHELD</text>
+  <path d="M1090 82h30v30h-30z" fill="#FF6B35"/><path d="M1097 97h16" stroke="#14211D" stroke-width="3"/>
+</svg>

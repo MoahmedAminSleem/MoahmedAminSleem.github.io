@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Sanitized incentive governance engine</title><desc id="desc">A high-level framework showing eligibility and audit logic for incentive calculations, with payroll data withheld.</desc>
+  <rect width="1200" height="760" fill="#F1EFE7"/>
+  <path d="M0 0h1200v72H0z" fill="#14211D"/><text x="56" y="44" fill="#FF6B35" font-family="monospace" font-size="18" letter-spacing="4">GOVERNANCE FILE / INCENTIVE LOGIC</text>
+  <text x="56" y="136" fill="#14211D" font-family="Arial, sans-serif" font-size="42" font-weight="700">Fair calculation needs a visible decision trail.</text>
+  <text x="56" y="172" fill="#14211D" fill-opacity=".62" font-family="monospace" font-size="14" letter-spacing="1">SANITIZED FRAMEWORK · PAYROLL, NAMES, AND PAYOUTS WITHHELD</text>
+  <g fill="#14211D"><rect x="56" y="244" width="220" height="138"/><rect x="330" y="244" width="220" height="138"/><rect x="604" y="244" width="220" height="138"/><rect x="878" y="244" width="266" height="138"/></g>
+  <g fill="#FF6B35" font-family="monospace" font-size="13" letter-spacing="2"><text x="78" y="280">01 / INPUTS</text><text x="352" y="280">02 / ELIGIBILITY</text><text x="626" y="280">03 / WEIGHTING</text><text x="900" y="280">04 / REVIEW</text></g>
+  <g fill="#F1EFE7" font-family="Arial, sans-serif" font-size="22" font-weight="700"><text x="78" y="326">Target + actual</text><text x="352" y="326">Qualification rules</text><text x="626" y="326">Role &amp; efficiency</text><text x="900" y="326">Audit-ready output</text></g>
+  <g stroke="#FF6B35" stroke-width="5" fill="none"><path d="M276 313h38"/><path d="M550 313h38"/><path d="M824 313h38"/></g>
+  <g fill="#FF6B35"><path d="M314 306l16 7-16 7z"/><path d="M588 306l16 7-16 7z"/><path d="M862 306l16 7-16 7z"/></g>
+  <g stroke="#14211D" stroke-opacity=".24" stroke-width="2"><path d="M56 485h1088"/><path d="M56 570h1088"/></g>
+  <g fill="#14211D" font-family="monospace" font-size="14" letter-spacing="1"><text x="56" y="450">CONTROL PRINCIPLES</text></g>
+  <g fill="#14211D" font-family="Arial, sans-serif" font-size="24"><text x="56" y="530">Explainable rules</text><text x="365" y="530">Consistent checks</text><text x="688" y="530">Clear review path</text></g>
+  <g fill="#FF6B35"><circle cx="58" cy="612" r="8"/><circle cx="367" cy="612" r="8"/><circle cx="690" cy="612" r="8"/></g>
+  <g fill="#14211D" fill-opacity=".68" font-family="monospace" font-size="13"><text x="78" y="617">BUSINESS LOGIC IS TRACEABLE</text><text x="387" y="617">SENSITIVE DATA STAYS PRIVATE</text><text x="710" y="617">HUMAN REVIEW REMAINS ESSENTIAL</text></g>
+  <rect x="56" y="664" width="1088" height="40" fill="#FF6B35"/><text x="76" y="690" fill="#14211D" font-family="monospace" font-size="12" letter-spacing="1">SYSTEM FRAMEWORK VERIFIED FROM PRIVATE WORKBOOK STRUCTURE · NO PAYROLL OR PERSONAL DATA DISPLAYED</text>
+</svg>
