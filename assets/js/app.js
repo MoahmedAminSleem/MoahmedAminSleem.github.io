@@ -162,7 +162,8 @@ if (finePointer) {
   });
   const figs = qsa('.fig');
   figs.forEach(f => {
-    const isLive = (f.querySelector('.fig__img')?.src || '').includes('.gif');
+    const media = f.querySelector('img.fig__img, video.fig__img');
+    const isLive = /(\.gif|\.mp4)/.test(media?.src || media?.currentSrc || '');
     f.addEventListener('pointerenter', () => { cur.classList.add('is-view'); label.textContent = isLive ? 'LIVE · حيّ' : 'FIG · شكل'; });
     f.addEventListener('pointerleave', () => { cur.classList.remove('is-view'); });
   });
@@ -226,12 +227,12 @@ runLoader(heroIntro);
   const el = qs('#rosettaText');
   if (!el) return;
   const phrases = [
-    'I map the work before I model the data.',
-    'أرسمُ العملَ قبل أن أنمذجَ البيانات.',
-    'capture → clean → model → weigh → decide',
-    'البياناتُ لا تكذب — لكنها تحتاجُ من يفكَّ رموزها.',
-    '10,000+ orders. One decision.',
-    'لا أُدخِلُ البيانات — أنا مَن يزِنُها ويُخزِّنُها ويُحلِّلُها.',
+    'I read the work first, then the data.',
+    'بقرأ الشغل الأول… وبعدين الداتا.',
+    'capture → clean → store → analyze',
+    'الداتا مش أرقام وبس — دي قرارات نايمة.',
+    '10,000+ orders. One clear story.',
+    'مش بخزّن بيانات وبس — بفهمها وأنظّمها.',
   ];
   const POOL_L = '<>/#%&*+=·:01';
   const POOL_A = 'أبتثجحخدذرزسشصضطظعغفقكلمنهوي';
@@ -340,6 +341,18 @@ qsa('.fig').forEach(f => {
     y: -26, ease: 'none',
     scrollTrigger: { trigger: f, start: 'top bottom', end: 'bottom top', scrub: .8 }
   });
+});
+
+/* ── demo videos: play only while visible ──────────────── */
+qsa('video.fig__img').forEach(v => {
+  v.play().catch(() => {});
+  if ('IntersectionObserver' in window) {
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) v.play().catch(() => {});
+      else v.pause();
+    }), { threshold: .15 });
+    io.observe(v);
+  }
 });
 
 /* ── case stack ────────────────────────────────────────── */

@@ -328,6 +328,8 @@ html.js .folio-head.is-in::after{transform:scaleX(1);transition:transform 1.1s v
 .analyst__copy .lead em{font-weight:520}
 .analyst__copy p:not(.lead){font-size:clamp(15px,1.25vw,17.5px);color:var(--ink-soft);max-width:66ch;margin-bottom:1.4em}
 .analyst__copy strong{color:var(--ink);font-weight:600}
+.ar-line{direction:rtl;text-align:right;font-size:clamp(17px,1.5vw,21px)!important;line-height:1.9;color:var(--seal-deep)!important;padding-right:.9em;border-right:3px solid var(--seal);margin:1.7em 0}
+@media(max-width:900px){.ar-line{border-right:none;border-left:3px solid var(--seal);padding-right:0;padding-left:.9em;text-align:left}}
 
 .stats{
   display:grid;grid-template-columns:repeat(4,1fr);gap:2px;margin-top:clamp(30px,5vh,52px);
