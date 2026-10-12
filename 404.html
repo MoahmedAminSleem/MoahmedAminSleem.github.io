@@ -3,33 +3,41 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>404 — Lost in the desert · Mohamed Amin Sleem</title>
+<title>404 — Entry not found · Mohamed Amin Sleem</title>
 <meta name="robots" content="noindex">
-<meta name="theme-color" content="#0d0a06">
+<meta name="theme-color" content="#F3EFE7">
 <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
 <style>
-:root{--bg:#0d0a06;--gold:#d9a441;--gold-hi:#f0c96a;--papyrus:#ede3cc;--muted:#8a7f6a}
+:root{--paper:#F3EFE7;--paper-2:#ECE5D6;--ink:#1D1712;--ink-soft:rgba(29,23,18,.64);--seal:#A93B26;--seal-deep:#8C2F1D;--virid:#1F5F5A;--hair:rgba(29,23,18,.16)}
 *{box-sizing:border-box;margin:0;padding:0}
-body{min-height:100svh;display:grid;place-items:center;background:var(--bg);color:var(--papyrus);
-  font-family:'IBM Plex Mono',ui-monospace,monospace;padding:24px;text-align:center}
-.ankh{width:64px;height:64px;stroke:var(--gold);fill:none;stroke-width:1.4;margin:0 auto 26px;display:block}
-h1{font-family:Georgia,'Times New Roman',serif;font-weight:400;font-size:clamp(2rem,7vw,4rem);letter-spacing:.04em;line-height:1.05}
-h1 span{color:var(--gold)}
-.ar{font-size:1.25rem;color:var(--gold);margin-top:14px}
-p{color:var(--muted);font-size:.85rem;letter-spacing:.08em;line-height:1.9;max-width:46ch;margin:22px auto 34px}
-a{display:inline-block;color:var(--bg);background:var(--gold);text-decoration:none;border-radius:999px;
-  padding:1em 2.2em;font-size:.7rem;letter-spacing:.24em;transition:background .3s}
-a:hover{background:var(--gold-hi)}
+body{min-height:100svh;display:grid;place-items:center;background:var(--paper);color:var(--ink);
+  font-family:'IBM Plex Mono',ui-monospace,monospace;padding:24px;text-align:center;position:relative;overflow:hidden}
+body::before{content:'';position:absolute;inset:0;pointer-events:none;
+  background-image:linear-gradient(rgba(31,95,90,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(31,95,90,.05) 1px,transparent 1px);
+  background-size:44px 44px;-webkit-mask-image:radial-gradient(90% 80% at 50% 45%,#000 30%,transparent 78%);mask-image:radial-gradient(90% 80% at 50% 45%,#000 30%,transparent 78%)}
+.box{position:relative;max-width:560px}
+.no{font-family:Georgia,'Times New Roman',serif;font-weight:300;font-size:clamp(110px,22vw,200px);line-height:.9;
+  color:transparent;-webkit-text-stroke:1.5px rgba(169,59,38,.55);letter-spacing:-.02em;margin-bottom:8px}
+h1{font-family:Georgia,'Times New Roman',serif;font-weight:500;font-size:clamp(1.5rem,4.5vw,2.6rem);letter-spacing:.01em}
+h1 span{color:var(--seal);font-style:italic}
+.ar{font-family:'Amiri','Times New Roman',serif;font-size:clamp(1.1rem,3vw,1.5rem);color:var(--seal-deep);margin-top:14px}
+p{color:var(--ink-soft);font-size:.82rem;letter-spacing:.08em;line-height:2;max-width:46ch;margin:22px auto 34px}
+.rule{width:120px;height:1px;background:var(--hair);margin:26px auto;position:relative}
+.rule::after{content:'';position:absolute;left:0;top:0;width:44px;height:2px;background:var(--seal)}
+a{display:inline-flex;align-items:center;gap:12px;color:var(--paper);background:var(--ink);text-decoration:none;border-radius:999px;
+  padding:1em 2.2em;font-size:.68rem;letter-spacing:.24em;transition:background .35s,transform .35s cubic-bezier(.22,1,.36,1)}
+a:hover{background:var(--seal);transform:translateY(-2px)}
+@media(prefers-reduced-motion:reduce){a{transition:none}}
 </style>
 </head>
 <body>
-<div>
-  <svg class="ankh" viewBox="0 0 24 24"><path d="M12 12.2v9.4"/><path d="M6.7 15.7h10.6"/><path d="M12 2.3c2.6 0 4.2 2 4.2 4.5S14.6 12.1 12 12.1 7.8 9.4 7.8 6.8 9.4 2.3 12 2.3Z"/></svg>
-  <h1>LOST IN THE <span>DESERT</span></h1>
-  <div class="ar" lang="ar" dir="rtl">ضِعتَ في الصحراء؟</div>
-  <p>404 · THIS CHAMBER WAS NEVER CARVED — THE SCRIBE HAS NO RECORD OF IT.<br>
-  <span lang="ar" dir="rtl">هذه الحجرة لم تُنقش قط.</span></p>
-  <a href="/">RETURN TO THE HOUSE · عُد للبيت</a>
+<div class="box">
+  <div class="no">404</div>
+  <h1>ENTRY <span>NOT FOUND</span></h1>
+  <div class="ar" lang="ar" dir="rtl">هذا السطرُ غيرُ موجودٍ في السجلّ</div>
+  <div class="rule"></div>
+  <p>THE LEDGER HAS NO RECORD OF THIS PAGE —<br>EVERY NUMBER IS ACCOUNTED FOR, BUT THIS ONE ISN'T.</p>
+  <a href="/">BACK TO THE FIRST ENTRY</a>
 </div>
 </body>
 </html>

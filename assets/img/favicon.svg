@@ -1,8 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="14" fill="#0d0a06"/>
-  <g fill="none" stroke="#f0c96a" stroke-width="4" stroke-linecap="round">
-    <ellipse cx="32" cy="18.5" rx="10.5" ry="12.5"/>
-    <path d="M32 31v26"/>
-    <path d="M18.5 40h27"/>
-  </g>
+  <rect width="64" height="64" rx="14" fill="#F3EFE7"/>
+  <circle cx="32" cy="32" r="23" fill="none" stroke="#A93B26" stroke-width="2.5" stroke-dasharray="3 4"/>
+  <circle cx="32" cy="32" r="19.5" fill="none" stroke="#A93B26" stroke-width="1.2"/>
+  <text x="32" y="37.5" text-anchor="middle" font-family="Georgia,serif" font-weight="700" font-size="14.5" fill="#8C2F1D" letter-spacing="0.5">M.AS</text>
 </svg>
